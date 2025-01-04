@@ -18,3 +18,12 @@ A solution that not only solved my issue making the game with commandblocks, it 
 
 So I would like to share it today because I find it intresting, I do not know what solution the original pong used and it would be good to research it. but finding solutions to my problems myself is fun to me.
 The code is in [Cool](Cool/1.2.25-Move_A_Ball.py)
+
+## Day 3
+
+Ok I dont have any cool thing to share today, all I added to the folders was some baic functions in C and Java
+These are functions that I keep remaking everytime I make a new engine, so i just decided to keep it in a folder here for refrence.
+I have more of them in diffrent languages but I cant find the python one.
+I'm pretty sure yesterday I had something planned to talk about but I forgot it, So I am adding a [Future Topics Text Document](FutureTopics.md) to write down any ideas to talk about.
+
+Tommorow I am going to be very busy so i may miss that day or day 4 might be short
