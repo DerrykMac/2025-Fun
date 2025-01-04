@@ -27,3 +27,8 @@ I have more of them in diffrent languages but I cant find the python one.
 I'm pretty sure yesterday I had something planned to talk about but I forgot it, So I am adding a [Future Topics Text Document](FutureTopics.md) to write down any ideas to talk about.
 
 Tommorow I am going to be very busy so i may miss that day or day 4 might be short
+
+## Day 4
+
+Today I did screamed into a mic for a sound test... not knowing i was live...
+besides that today is too stressfull to write anything.
