@@ -32,3 +32,19 @@ Tommorow I am going to be very busy so i may miss that day or day 4 might be sho
 
 Today I did screamed into a mic for a sound test... not knowing i was live...
 besides that today is too stressfull to write anything.
+
+## Day 6
+
+And just like that... I missed day 5 lol
+
+Today I will like to talk about old Operating Systems, Like DOS and Windows 3.1
+Years ago I started using old OSs like DOS 5.0 for coding and I think it stuck with me because im still worried about 32bit filename errors lol.
+Besides that I think the limitations help me become a better programmer and help me get better at CMD.
+Also I miss GOTO command in languages, yes it can lead to confusions and messy code, but sometimes I want to just hop back to the top of the code without having all my lines check for a condition.
+
+GOTO aside, I think working under limitation is a great skill teacher that helps you improve your skills, You'll see more often during this ReadMe that I love working under limitations.
+A couple things to look forward to:
+
+- Wordle in excel
+- A screensaver for the TI84 Calculator
+- A 3d render engine for the console with Ascii
