@@ -5,4 +5,4 @@
 - Static File format
 - Render Engine facts
 - Sound engine facts
-- GOTO
+- <s>GOTO<s>
