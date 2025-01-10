@@ -57,3 +57,9 @@ I can see that I am going to miss a lot of days and tracking the days is going t
 
 For todays interesting iota, I set up obsidian because I wanted to take notes in MD format.<br>
 Im going to try get the cloud synchronization up and working when I get back from work.
+
+## Day 9
+
+Today I had to help rush pack a bunch of kids for a trip tomorrow (Im not going lol)<br>
+didn't do anything too interesting today, Uh... I got a fax machine to work on linux after like 4 months of it not working. All I did was download HP drivers lol <br>
+`sudo apt install hplip-gui` then `hp-setup`
