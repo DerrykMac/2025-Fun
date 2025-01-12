@@ -63,3 +63,7 @@ Im going to try get the cloud synchronization up and working when I get back fro
 Today I had to help rush pack a bunch of kids for a trip tomorrow (Im not going lol)<br>
 didn't do anything too interesting today, Uh... I got a fax machine to work on linux after like 4 months of it not working. All I did was download HP drivers lol <br>
 `sudo apt install hplip-gui` then `hp-setup`
+
+## Day 11
+
+Pain and suffering
