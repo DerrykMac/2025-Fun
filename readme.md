@@ -67,3 +67,10 @@ didn't do anything too interesting today, Uh... I got a fax machine to work on l
 ## Day 11
 
 Pain and suffering
+
+## Day 15
+
+So... My computer exploded 💀 <br>
+Yea so I could have continued this on a different PC, but I was so focused on getting my laptop fixed I forgot this existed
+
+Anywho, Today I will be trying to write a particle engine, but first I am going to write a basic static collision system, update on that tomorrow (If I get the chance to work on it today)
