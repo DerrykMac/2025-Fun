@@ -74,3 +74,35 @@ So... My computer exploded 💀 <br>
 Yea so I could have continued this on a different PC, but I was so focused on getting my laptop fixed I forgot this existed
 
 Anywho, Today I will be trying to write a particle engine, but first I am going to write a basic static collision system, update on that tomorrow (If I get the chance to work on it today)
+
+## Day 20
+
+Ok I have no excuse this time, I simply forgot.
+
+I did finish the collision system yesterday thou so if I did a day 16 I wouldn't have much to say. <br>
+The collision system works quite simply, theres 3 components
+
+- Map collision
+- Object collision
+- Particle collision
+
+The Map collision was the simplest as it just detects if a 16x16 square chunk is filled ot not (Or any size you set it to)
+(Its a 2d pixel engine btw) <br>
+The Particle collision was interesting, it doesn't effect Objects but it is effected by objects, also its basically the same as the map but for 1 pixel <br>
+The Object collision is alot more difficult and I am not fully finished with it. But essentially there are 2 types of collisions shapes: -Square & -Circle
+And then theres 4 functions to describe how to know if they collided<br>
+I will but in a system that checks every frame but also, only checks if the distance is close, otherwise to save recourses it wont check
+
+Here's a sample code:
+
+```C++
+bool CheckCollisionCircleCircle(CollisionObject* other) {
+	float distance = sqrt(pow(Position.x - other->Position.x, 2) + pow(Position.y - other->Position.y, 2));
+	if (distance < Size.x + other->Size.x) {
+		return true;
+	}
+	return false;
+}
+```
+
+Thats all for today, I'll try not forget tomorrow :P
