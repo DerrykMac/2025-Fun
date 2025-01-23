@@ -106,3 +106,7 @@ bool CheckCollisionCircleCircle(CollisionObject* other) {
 ```
 
 Thats all for today, I'll try not forget tomorrow :P
+
+## Day 23
+
+Quite simply... I hate dealing with Threads
