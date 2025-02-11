@@ -110,3 +110,26 @@ Thats all for today, I'll try not forget tomorrow :P
 ## Day 23
 
 Quite simply... I hate dealing with Threads
+
+## Day 42
+
+Welp... I forgeot this existed oh well not going to quit just because I missed a few days <br>
+Lets see how how much I can remember from the past 20 days
+
+### I moved over to Linux
+Specifically Ubuntu 20.04, I got sick and tired of windows so I finally made the switch, I still have a windows partition for... job reasons but If I need need to run a windows program and wine doesn't work I have a VM
+
+### I Published a game (demo)
+After 3 years of making games under my indie group and just, not publishing anything, I finally published a finished game!!!<br>
+Its a demo cuz we plan on expanding the game (We made it for a Jam)
+Check it out: [Bubblexity on Itch.io](https://bchaotic.itch.io/bubblexity)
+
+### Minor updates
+- Added a new function to [Basic.h](Saving/Basic Libs/Basic.h), Just a way to check if something is a prime number
+- Relized while uploading I dont have git on my linux PC, will download now lol
+
+Besides that, I can't remember much else <br>
+For the future: Imma try convert my game engine to linux and see how that goes, probably gunna pull my hair out, but oh well...
+
+Anywho check out the game 🫵 <br>
+See you in another month lol
