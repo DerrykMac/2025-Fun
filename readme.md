@@ -125,7 +125,7 @@ Its a demo cuz we plan on expanding the game (We made it for a Jam)
 Check it out: [Bubblexity on Itch.io](https://bchaotic.itch.io/bubblexity)
 
 ### Minor updates
-- Added a new function to [Basic.h](Saving/Basic Libs/Basic.h), Just a way to check if something is a prime number
+- Added a new function to [Basic.h](Saving/Basic Libs/Basic.h) , Just a way to check if something is a prime number
 - Relized while uploading I dont have git on my linux PC, will download now lol
 
 Besides that, I can't remember much else <br>
@@ -133,3 +133,25 @@ For the future: Imma try convert my game engine to linux and see how that goes, 
 
 Anywho check out the game 🫵 <br>
 See you in another month lol
+
+## Day 52
+How did I forget for EXACTLY 10 days... oh well 
+
+Today I bring to you a line of code to get ur IP on bash
+```bash
+ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'
+```
+Nothing too intresting tbh, I just needed it and wanted to save it somewhere
+Anywho, I do want to talk about something cool from linux
+### NETCAT!!
+Netcat is so cool!! You can use it to send commands over the network and because of unix piping u can use it for files too!! <br>
+On the recieving end you use `nc -l  [port]` and on the sending end you can use `nc [ip] [port]` <br>
+Ofc we cant forget the piping `cat [file] | nc [ip] [port]` <br>
+And BOOM! the output of the file gets sent over the network <br>
+You can use that to send files by piping the file in and out <br>
+recieving end: `nc -l [port] > [file]` <br>
+sending end: `nc [ip] [port] < [file]` <br>
+And there you go, you can send files over the network with netcat <br>
+
+idk... I find it cool lol <br>
+anywho Imma def forget tmmr so hopefully I remember in less than 10 days this time
