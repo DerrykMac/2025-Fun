@@ -125,7 +125,7 @@ Its a demo cuz we plan on expanding the game (We made it for a Jam)
 Check it out: [Bubblexity on Itch.io](https://bchaotic.itch.io/bubblexity)
 
 ### Minor updates
-- Added a new function to [Basic.h](Saving/Basic Libs/Basic.h) , Just a way to check if something is a prime number
+- Added a new function to [Basic.h](Saving/BasicLibs/Basic.h) , Just a way to check if something is a prime number
 - Relized while uploading I dont have git on my linux PC, will download now lol
 
 Besides that, I can't remember much else <br>
@@ -155,3 +155,12 @@ And there you go, you can send files over the network with netcat <br>
 
 idk... I find it cool lol <br>
 anywho Imma def forget tmmr so hopefully I remember in less than 10 days this time
+
+## Day 100!!
+Ok I HAD to post one on day 100 <br>
+Not much to say... I forgot this existed again until I saw it was day 100 <br>
+uh... Ive been working on a wifilogger program for the past few days, I can talk about it more in the future <br>
+For now... I added a new Basic lib to the [Basic Libs](Saving/BasicLibs) folder (This time for python) <br>
+[Basic.py](Saving/BasicLibs/Basic.py) <br>
+
+See you in another 100 days lol (Hopefully not)
