@@ -164,3 +164,45 @@ For now... I added a new Basic lib to the [Basic Libs](Saving/BasicLibs) folder 
 [Basic.py](Saving/BasicLibs/Basic.py) <br>
 
 See you in another 100 days lol (Hopefully not)
+
+### Day 100 Addendum
+Wow There are alot of things I want to talk about, and I just added a bunch to [FutureTopics.md](FutureTopics.md) <br>
+Hopefully I can remember to post more often so I can talk about all the things I want to talk about <br>
+
+You will see this update when I post again cuz I dont want to commit 2 times in a day lol <br>
+
+## Day 101
+**I REMEMBERED!!!**
+
+So I made a whole rant about windows but It doesn't fit the vibe here So I put it in a [different file](Rants.md)
+
+Because I'm kinda tired of writing after the rant, I will talk about a reletivly simple topic <br>
+
+### `wget`
+Its cool... <br>
+Its a bash command that lets you download files from the internet <br>
+Sometimes If I want to download a raw file on a webserver like github or Internet Archive, I just use wget <br>
+```bash
+wget [url]
+```
+its that simple <br>
+
+Aiit See ya...
+
+## Day 103
+Not only did I miss day 102, I somehow never commited day 101... <br>
+
+## Day 104
+And... I forgot to commit again... <br>
+
+Today I will talk about Microcontrollers, and C; More so C <br>
+Alot of people hate C/C++ and I get it, its one of the only languages that if you tell it to blow up ur computer, it wont ask questions or stop you... It will just do it <br>
+Personally I like the full control it has, no restrictions lets me do whatever I want,
+But on microcrontrollers I think its critical to use C/C++ <br>
+Tell me, how many languages lets you strip it down to the bare minimum. In C u have to import the PRINT function, thats not built in. In other languages you have no choice. Now what use does a print function have on a microcontroller? <br> 
+None <br>
+And when ur working with a device that can bearly hold 1 .wav file of someone speaking, Its very important to use as little space as possible <br>
+
+C is good for alot of other things too, its speed and versatility is amazing, and the reason why its still used to this day. But I wanted to focus on microcontrollers <br>
+
+Expecially after finding out Python based microcontrollers exist... <br>

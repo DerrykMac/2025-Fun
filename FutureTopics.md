@@ -5,5 +5,19 @@
 - Static File format
 - Render Engine facts
 - Sound engine facts
-- <s>GOTO<s>
-- Cowsay
+- ~~GOTO~~
+- WifiLogger
+    - Overide Printing
+    - 1digit TimeCode
+    - Chatoyancy 
+- Linux UI Opinions
+- QT
+- Javascript hate
+- Micro controllers
+- ~~Windows Hate~~
+- Optimization
+- Linux Commands
+    - `minimodem`
+    - ~~`wget`~~
+    - `htop`
+    - `cowsay`

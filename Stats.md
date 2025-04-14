@@ -1,3 +1,3 @@
 | Statistic | Data |
 | --- | --- |
-| # of Days Logged | 13 |
+| # of Days Logged | 15 |
