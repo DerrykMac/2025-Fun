@@ -17,7 +17,7 @@ It want until I was explaining to my friend the issue I was having with translat
 A solution that not only solved my issue making the game with commandblocks, it also gets rid of all the bugs my previous iterations had
 
 So I would like to share it today because I find it interesting, I do not know what solution the original pong used and it would be good to research it. but finding solutions to my problems myself is fun to me.
-The code is in [Cool](Cool/1.2.25-Move_A_Ball.py)
+The code is in [/Cool](Cool/1.2.25-Move_A_Ball.py)
 
 ## Day 3
 
@@ -30,7 +30,7 @@ Tomorrow I am going to be very busy so i may miss that day or day 4 might be sho
 
 ## Day 4
 
-Today I did screamed into a mic for a sound test... not knowing i was live...
+Today I screamed into a mic for a sound test... not knowing i was live...
 besides that today is too stressful to write anything.
 
 ## Day 6
@@ -206,3 +206,96 @@ And when ur working with a device that can bearly hold 1 .wav file of someone sp
 C is good for alot of other things too, its speed and versatility is amazing, and the reason why its still used to this day. But I wanted to focus on microcontrollers <br>
 
 Expecially after finding out Python based microcontrollers exist... <br>
+
+## Day 105
+Ok I'll talk about the Wifi logger lol
+
+I'm not gunna yap in this one so backstory later, but I had an intresting issue to solve
+
+The Code made a live barchart with one bar being 1 character wide, using `"▌"` character to build the bar <br>
+But inorder to actually usefull, I need to know what time each bar was created (The bars relate to the wifi strength, relitive to the other readings) <br>
+But the issue is.. I only have 1 character to work with, and if you ever seen time before, its more than 1 character, more like 3-5 `HH:MM` <br>
+
+So how do I store any time into 1 char without loosing any data? Well I decided to use base64 (for the minuets), but what about the hours? I hear you asking across the screen frantically reading this random entry on a long readme.md file...
+Well I used COLOUR!! <br>
+
+```python
+def GetTimeCode(Hour, Minute):
+
+    #Convert Minute to 1 digit in base64
+    Minute = Basic.base64_chars[Minute]
+    #Convert Hour to hue
+    Col = int((Hour / 24) * 360)
+    ColRGB = Basic.HueToRGB(Col)
+
+    #Make pixel
+    Pix = Pixel()
+    Pix.R = ColRGB[0]
+    Pix.G = ColRGB[1]
+    Pix.B = ColRGB[2]
+    Pix.P = Minute
+    
+    return Pix
+```
+```python
+def HueToRGB(hue):
+    # Convert hue to RGB
+    if hue < 0 or hue > 360:
+        raise ValueError("Hue must be between 0 and 360 degrees")
+    
+    c = 1
+    x = c * (1 - abs((hue / 60) % 2 - 1))
+    m = 0
+
+    if hue < 60:
+        r, g, b = c, x, m
+    elif hue < 120:
+        r, g, b = x, c, m
+    elif hue < 240:
+        r, g, b = m, c, x
+    elif hue < 300:
+        r, g, b = x, m, c
+    else:
+        r, g, b = c, m, x
+
+    return int((r + m) * 255), int((g + m) * 255), int((b + m) * 255)
+```
+
+Basically This gave me a colour coded hex char That I can use to figure out the time <br>
+Also If you look at the characters I used for the Base64 Conversion:
+`"ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#abcdefghijklmnopqrstuvwxyz-+/"`<br>
+I made the first 26 characters the letters, followed by 3 symbols before going back to letters. So I can easily tell what letter is what time <br>
+Like if i see lowercase "f" I know "a" is 30 and can work from there <br>
+
+Ofcourse your not gunna remember the colors off your head, so I put a refrence chart (toggable) in program <br>
+```python
+if not Help: #HELP is a bool toggled with "h"
+	# STUFF
+else:
+	
+	TextToPixel(Basic.base64_chars, UpperGrid, WIDTH - 65 , 0) #This is for base64 chars incase i forget the alphabet lol
+	
+	#This is for the colors, and it gives the time too, issue thou is times like 12 are written as 21 :P
+	x = WIDTH  # Start at the far right
+	for T in range(25):
+		Col = int((T / 24) * 360)
+		ColRGB = Basic.HueToRGB(Col)
+
+		digits = list(str(T))  # handles 1 or 2 digit numbers
+		for d in digits:
+			Pix = Pixel()
+			Pix.R = ColRGB[0]
+			Pix.G = ColRGB[1]
+			Pix.B = ColRGB[2]
+			Pix.P = d
+			PlacePixel(Pix, UpperGrid, x, 1)
+			x -= 1  # move left for next digit
+
+		x -= 1  # extra space between numbers
+```
+
+Thats it for today, I'll try talk about grabbing user input asynchronously next time 
+
+Also for the record, I will make all the code for this app opensource when I finish it, (in like 10 years lol) <br>
+Its very much a side project and I can't focus on it.
+

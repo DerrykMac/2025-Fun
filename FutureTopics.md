@@ -8,8 +8,9 @@
 - ~~GOTO~~
 - WifiLogger
     - Overide Printing
-    - 1digit TimeCode
+    - ~~1digit TimeCode~~
     - Chatoyancy 
+    - Asynchronous Input
 - Linux UI Opinions
 - QT
 - Javascript hate
