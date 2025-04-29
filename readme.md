@@ -299,3 +299,12 @@ Thats it for today, I'll try talk about grabbing user input asynchronously next 
 Also for the record, I will make all the code for this app opensource when I finish it, (in like 10 years lol) <br>
 Its very much a side project and I can't focus on it.
 
+## Day 119
+Shut it
+
+Anywho have you guys heard of `whois`? Cuz I didn't until 20 minutes ago <br>
+```bash
+whois [ip/domain]
+```
+It gives you information for an ip address, like the owner and when it was registered <br>
+Thats it for today, bye
