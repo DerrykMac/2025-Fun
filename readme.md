@@ -308,3 +308,31 @@ whois [ip/domain]
 ```
 It gives you information for an ip address, like the owner and when it was registered <br>
 Thats it for today, bye
+
+## Day 230
+Man I really overslept... What I missed? <br>
+100+ days? Yea sound about accurate
+
+Way too much has happened for me to possibly cover it all, so I will say some highlites
+
+- Coded a Barcode scanner
+- Learn QT6
+- Made a NAS
+- Started Development for my own Custom Music player that I am going to manufacture
+- Learned about Micro Displays
+- Learned the `yes` command in Linux
+- Got a raspberry Pi
+- Continued work on my Game
+- Tried helping my friend with making a Custom CPU
+- Failed with a friend to make a Custom CPU
+- Learned Node.JS
+- Learned Expo
+- Made a SQL Database
+
+Anywho, This isn't me coming back to this, I still want to do it, but too often this flashes into my head in an inopportune time to write anything, So now that I broke the Ice again, I will try to update when I can. <br>
+There's still ALOT of topics in [FutureTopics.md](FutureTopics.md) (And I just added more), So I have plenty to talk about, Just need the time to write it.
+
+Thats all for now, See you in another 100 days...
+
+### Day 230 Addendum
+I Want to try this again 2026, and 2027 and future years until I actually do 365 days

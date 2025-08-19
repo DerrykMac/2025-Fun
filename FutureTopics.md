@@ -22,3 +22,8 @@
     - ~~`wget`~~
     - `htop`
     - `cowsay`
+- Pizza Math
+- Expo
+- Barcodes
+- NAS
+- Assembly
