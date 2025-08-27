@@ -336,3 +336,33 @@ Thats all for now, See you in another 100 days...
 
 ### Day 230 Addendum
 I Want to try this again 2026, and 2027 and future years until I actually do 365 days
+
+## Day 238 
+I may or may not be back, Today was SHIT thou so it messed up my return
+so I'll just do a quick one
+
+Midnight Commander (or shortened as simply `MC`) is a CLI File manager.
+Very cool for systems with No GUI and u don't wanna type CD over and over.
+
+Also There's `Tree` not as versitile but it's cool. Its usefull for visualizing the structure of directories.
+
+Here's a tree of this git as of this commit:
+```
+.
+├── Cool
+│   └── 1.2.25-Move_A_Ball.py
+├── Fun
+├── FutureTopics.md
+├── Rants.md
+├── readme.md
+├── Saving
+│   ├── BasicLibs
+│   │   ├── Basic.h
+│   │   ├── Basic.java
+│   │   └── Basic.py
+│   └── UsefullFuncs.h
+├── Sharing
+├── Stats.md
+└── Testing
+    └── WhatDay.py
+```

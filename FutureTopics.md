@@ -27,3 +27,5 @@
 - Barcodes
 - NAS
 - Assembly
+- Raid Configs
+- Subnet Mask and Default Gateway
