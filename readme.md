@@ -117,7 +117,7 @@ Welp... I forgeot this existed oh well not going to quit just because I missed a
 Lets see how how much I can remember from the past 20 days
 
 ### I moved over to Linux
-Specifically Ubuntu 20.04, I got sick and tired of windows so I finally made the switch, I still have a windows partition for... job reasons but If I need need to run a windows program and wine doesn't work I have a VM
+Specifically Ubuntu 24.04, I got sick and tired of windows so I finally made the switch, I still have a windows partition for... job reasons but If I need need to run a windows program and wine doesn't work I have a VM
 
 ### I Published a game (demo)
 After 3 years of making games under my indie group and just, not publishing anything, I finally published a finished game!!!<br>
@@ -366,3 +366,7 @@ Here's a tree of this git as of this commit:
 └── Testing
     └── WhatDay.py
 ```
+
+## Day 318
+
+WHAT DO YOU MEAN ITS NOVEMBER?????????????

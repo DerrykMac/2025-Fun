@@ -50,3 +50,8 @@ whats funny about that is if u want to delete the current folder its:
 sudo rm -rf ./
 ```
 Like... they should not be that close lol, but its funny
+
+
+# Day 238
+OMFG I just saw that Day 105 Git Message was just "105"
+well there goes the pattern :(
