@@ -370,3 +370,13 @@ Here's a tree of this git as of this commit:
 ## Day 318
 
 WHAT DO YOU MEAN ITS NOVEMBER?????????????
+
+## Day 364
+
+Imma just end it here, I had a good year and i learned ALOT in tech and programming.
+
+Don't worry, i'm going to try again at 2026, will it go well? Most certainly not, will it go better? Maybe, idk. We'll just have to wait and see.
+
+I Will transfer over most if not all of the topics i had in [FutureTopics.md](FutureTopics.md) that i never got to.
+
+I hope you had a good chrismas, and see you next year :)
