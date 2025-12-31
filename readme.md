@@ -380,3 +380,15 @@ Don't worry, i'm going to try again at 2026, will it go well? Most certainly not
 I Will transfer over most if not all of the topics i had in [FutureTopics.md](FutureTopics.md) that i never got to.
 
 I hope you had a good chrismas, and see you next year :)
+
+## Day 365
+ngl i really want to just see 365 at the bottom of this file. so im writing this on day 364 and will push it tomorrow
+
+While im here lemme do a little life update: <br>
+I quit my job lol. and now im a full time ~~bum~~ i mean Indie Game Developer. same thing ig. <br>
+is that a smart move? no, and YOU SHOULD NEVER DO THAT. but i was close to getting fired anyways and my employer was VERY NICE and let me stay for an extra month so i got another paycheck and i on record quit. so W ig, but now im broke and jobless lol. <br>
+As you may know, i run a small indie game group and i am going all in on it. I have the opertunity to work on it until a date i wont specify here, and if i get it profitable before then that will be my job. otherwise... job hunting time (i do NOT want to do that 😭)
+
+But overall i did have a good year, I learned alot on the job and a saved alot of the money so that i can move. and i have that money still so its all good (i just can't touch it lol, cuz i need it to move)
+
+Anywho, see ya'll in 2026 (Hopefully i push day 1 lol)
